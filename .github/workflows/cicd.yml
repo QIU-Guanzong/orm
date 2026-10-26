@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 jobs:
   cicd:
-    uses: hanzoai/ci/.github/workflows/build.yml@v1
+    uses: hanzoai/ci/.github/workflows/build.yml@2e112912bb1dab9ee413609425827c2302fb6d5a
     permissions:
       contents: write
       packages: write
